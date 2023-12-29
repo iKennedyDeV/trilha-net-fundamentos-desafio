@@ -17,7 +17,7 @@ bool rodar = true;
 
 while (rodar)
 {
-
+    Console.Clear();
     Console.WriteLine("Digite a sua Opção \n1 - Cadastrar veiculos \n2 - Remover Veiculos \n3 - Listar Veiculo \n4 - Encerrar");
     int opcaoEscolhida = Convert.ToInt32(Console.ReadLine());
     switch (opcaoEscolhida)
@@ -43,7 +43,7 @@ while (rodar)
     }
     Console.WriteLine("Pressione uma tecla para continuar");
     Console.ReadLine();
-      Console.Clear();
+      
 
 }
 Console.WriteLine("Encerrando Serviço");
